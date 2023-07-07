@@ -1,0 +1,24 @@
+{
+  "name": "wordlist-js",
+  "version": "1.0.0",
+  "description": "Title: \t\tWordList JS \r \t\tAuthor: \tTim Crouch\r \t\tContact: \tdacypher@gmail.com\r \t\tDate: \t\tOct 22, 2013\r \t\tPurpose: \tTo allow Javascript developers to make word games without resorting to using web services or other online services to verify and generate words. This will allow developers to make word game apps in JS for mobile devices.\r \t\tVersion: \t0.21\r \t\tLicense:\tMIT",
+  "source": "testing.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel",
+    "dev": "parcel testing.html",
+    "build": "del dist && parcel build",
+    "serve": "serve",
+    "prod": "serve dist/"
+  },
+  "keywords": [
+    "wordlist-js"
+  ],
+  "author": "Tim T Crouch",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "serve": "^14.2.0"
+  }
+}
